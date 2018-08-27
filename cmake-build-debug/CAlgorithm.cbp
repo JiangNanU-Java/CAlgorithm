@@ -80,13 +80,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/Algorithm/CAlgorithm/main.cpp">
+		<Unit filename="D:/Algorithm/CAlgorithm/c++/Test.cpp">
 			<Option target="CAlgorithm"/>
 		</Unit>
-		<Unit filename="D:/Algorithm/CAlgorithm/plus/Test.cpp">
+		<Unit filename="D:/Algorithm/CAlgorithm/c++/Test.h">
 			<Option target="CAlgorithm"/>
 		</Unit>
-		<Unit filename="D:/Algorithm/CAlgorithm/plus/Test.h">
+		<Unit filename="D:/Algorithm/CAlgorithm/c/main.c">
 			<Option target="CAlgorithm"/>
 		</Unit>
 		<Unit filename="D:/Algorithm/CAlgorithm/CMakeLists.txt">

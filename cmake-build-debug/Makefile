@@ -122,59 +122,59 @@ CAlgorithm/fast:
 	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/build
 .PHONY : CAlgorithm/fast
 
-main.obj: main.cpp.obj
+c++/Test.obj: c++/Test.cpp.obj
 
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/main.cpp.s
-.PHONY : main.cpp.s
-
-plus/Test.obj: plus/Test.cpp.obj
-
-.PHONY : plus/Test.obj
+.PHONY : c++/Test.obj
 
 # target to build an object file
-plus/Test.cpp.obj:
-	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/plus/Test.cpp.obj
-.PHONY : plus/Test.cpp.obj
+c++/Test.cpp.obj:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/c++/Test.cpp.obj
+.PHONY : c++/Test.cpp.obj
 
-plus/Test.i: plus/Test.cpp.i
+c++/Test.i: c++/Test.cpp.i
 
-.PHONY : plus/Test.i
+.PHONY : c++/Test.i
 
 # target to preprocess a source file
-plus/Test.cpp.i:
-	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/plus/Test.cpp.i
-.PHONY : plus/Test.cpp.i
+c++/Test.cpp.i:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/c++/Test.cpp.i
+.PHONY : c++/Test.cpp.i
 
-plus/Test.s: plus/Test.cpp.s
+c++/Test.s: c++/Test.cpp.s
 
-.PHONY : plus/Test.s
+.PHONY : c++/Test.s
 
 # target to generate assembly for a file
-plus/Test.cpp.s:
-	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/plus/Test.cpp.s
-.PHONY : plus/Test.cpp.s
+c++/Test.cpp.s:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/c++/Test.cpp.s
+.PHONY : c++/Test.cpp.s
+
+c/main.obj: c/main.c.obj
+
+.PHONY : c/main.obj
+
+# target to build an object file
+c/main.c.obj:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/c/main.c.obj
+.PHONY : c/main.c.obj
+
+c/main.i: c/main.c.i
+
+.PHONY : c/main.i
+
+# target to preprocess a source file
+c/main.c.i:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/c/main.c.i
+.PHONY : c/main.c.i
+
+c/main.s: c/main.c.s
+
+.PHONY : c/main.s
+
+# target to generate assembly for a file
+c/main.c.s:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/c/main.c.s
+.PHONY : c/main.c.s
 
 # Help Target
 help:
@@ -185,12 +185,12 @@ help:
 	@echo ... CAlgorithm
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
-	@echo ... plus/Test.obj
-	@echo ... plus/Test.i
-	@echo ... plus/Test.s
+	@echo ... c++/Test.obj
+	@echo ... c++/Test.i
+	@echo ... c++/Test.s
+	@echo ... c/main.obj
+	@echo ... c/main.i
+	@echo ... c/main.s
 .PHONY : help
 
 
