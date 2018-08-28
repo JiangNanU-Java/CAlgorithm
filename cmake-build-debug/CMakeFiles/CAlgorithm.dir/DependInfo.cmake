@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "D:/Algorithm/CAlgorithm/c/main.c" "D:/Algorithm/CAlgorithm/cmake-build-debug/CMakeFiles/CAlgorithm.dir/c/main.c.obj"
+  "D:/Algorithm/CAlgorithm/c/test.c" "D:/Algorithm/CAlgorithm/cmake-build-debug/CMakeFiles/CAlgorithm.dir/c/test.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

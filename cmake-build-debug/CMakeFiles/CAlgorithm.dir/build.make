@@ -56,18 +56,18 @@ include CMakeFiles/CAlgorithm.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/CAlgorithm.dir/flags.make
 
-CMakeFiles/CAlgorithm.dir/c/main.c.obj: CMakeFiles/CAlgorithm.dir/flags.make
-CMakeFiles/CAlgorithm.dir/c/main.c.obj: ../c/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Algorithm\CAlgorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CAlgorithm.dir/c/main.c.obj"
-	D:\clion\MinGW\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CAlgorithm.dir\c\main.c.obj   -c D:\Algorithm\CAlgorithm\c\main.c
+CMakeFiles/CAlgorithm.dir/c/test.c.obj: CMakeFiles/CAlgorithm.dir/flags.make
+CMakeFiles/CAlgorithm.dir/c/test.c.obj: ../c/test.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\Algorithm\CAlgorithm\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/CAlgorithm.dir/c/test.c.obj"
+	D:\clion\MinGW\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\CAlgorithm.dir\c\test.c.obj   -c D:\Algorithm\CAlgorithm\c\test.c
 
-CMakeFiles/CAlgorithm.dir/c/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CAlgorithm.dir/c/main.c.i"
-	D:\clion\MinGW\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Algorithm\CAlgorithm\c\main.c > CMakeFiles\CAlgorithm.dir\c\main.c.i
+CMakeFiles/CAlgorithm.dir/c/test.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/CAlgorithm.dir/c/test.c.i"
+	D:\clion\MinGW\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\Algorithm\CAlgorithm\c\test.c > CMakeFiles\CAlgorithm.dir\c\test.c.i
 
-CMakeFiles/CAlgorithm.dir/c/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CAlgorithm.dir/c/main.c.s"
-	D:\clion\MinGW\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Algorithm\CAlgorithm\c\main.c -o CMakeFiles\CAlgorithm.dir\c\main.c.s
+CMakeFiles/CAlgorithm.dir/c/test.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/CAlgorithm.dir/c/test.c.s"
+	D:\clion\MinGW\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\Algorithm\CAlgorithm\c\test.c -o CMakeFiles\CAlgorithm.dir\c\test.c.s
 
 CMakeFiles/CAlgorithm.dir/c++/Test.cpp.obj: CMakeFiles/CAlgorithm.dir/flags.make
 CMakeFiles/CAlgorithm.dir/c++/Test.cpp.obj: ../c++/Test.cpp
@@ -84,13 +84,13 @@ CMakeFiles/CAlgorithm.dir/c++/Test.cpp.s: cmake_force
 
 # Object files for target CAlgorithm
 CAlgorithm_OBJECTS = \
-"CMakeFiles/CAlgorithm.dir/c/main.c.obj" \
+"CMakeFiles/CAlgorithm.dir/c/test.c.obj" \
 "CMakeFiles/CAlgorithm.dir/c++/Test.cpp.obj"
 
 # External object files for target CAlgorithm
 CAlgorithm_EXTERNAL_OBJECTS =
 
-CAlgorithm.exe: CMakeFiles/CAlgorithm.dir/c/main.c.obj
+CAlgorithm.exe: CMakeFiles/CAlgorithm.dir/c/test.c.obj
 CAlgorithm.exe: CMakeFiles/CAlgorithm.dir/c++/Test.cpp.obj
 CAlgorithm.exe: CMakeFiles/CAlgorithm.dir/build.make
 CAlgorithm.exe: CMakeFiles/CAlgorithm.dir/linklibs.rsp

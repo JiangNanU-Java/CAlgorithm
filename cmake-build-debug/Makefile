@@ -149,32 +149,32 @@ c++/Test.cpp.s:
 	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/c++/Test.cpp.s
 .PHONY : c++/Test.cpp.s
 
-c/main.obj: c/main.c.obj
+c/test.obj: c/test.c.obj
 
-.PHONY : c/main.obj
+.PHONY : c/test.obj
 
 # target to build an object file
-c/main.c.obj:
-	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/c/main.c.obj
-.PHONY : c/main.c.obj
+c/test.c.obj:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/c/test.c.obj
+.PHONY : c/test.c.obj
 
-c/main.i: c/main.c.i
+c/test.i: c/test.c.i
 
-.PHONY : c/main.i
+.PHONY : c/test.i
 
 # target to preprocess a source file
-c/main.c.i:
-	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/c/main.c.i
-.PHONY : c/main.c.i
+c/test.c.i:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/c/test.c.i
+.PHONY : c/test.c.i
 
-c/main.s: c/main.c.s
+c/test.s: c/test.c.s
 
-.PHONY : c/main.s
+.PHONY : c/test.s
 
 # target to generate assembly for a file
-c/main.c.s:
-	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/c/main.c.s
-.PHONY : c/main.c.s
+c/test.c.s:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/c/test.c.s
+.PHONY : c/test.c.s
 
 # Help Target
 help:
@@ -188,9 +188,9 @@ help:
 	@echo ... c++/Test.obj
 	@echo ... c++/Test.i
 	@echo ... c++/Test.s
-	@echo ... c/main.obj
-	@echo ... c/main.i
-	@echo ... c/main.s
+	@echo ... c/test.obj
+	@echo ... c/test.i
+	@echo ... c/test.s
 .PHONY : help
 
 

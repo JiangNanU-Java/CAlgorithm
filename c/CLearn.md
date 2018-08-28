@@ -172,15 +172,52 @@ p = (struct links*)malloc(sizeof(struct links))
 
 ```
 
+## return
+```txt
+main的return 0 可以用来流程控制
+只有运行成功 echo $main == 0 
+若返回其他值，则说明程序运行失败 
+```
+
+## main参数
+```txt
+int main(int argv,char* args)
+```
+
+## for循环
+```txt
+int i;
+for(i=0;i<n;i++)
+旧版本gcc需要定义在外部
+```
 
 
+## 标准IO流
+```txt
+std
 
+stdio.h
+stdin.h
+stdout.h
+stderr.h
 
+linux所有设备都是文件，都视为文件操作
 
+printf是对fprintf的封装，默认为标准输入流（键盘）
+scanf是对fscanf的封装，默认标准输出流
 
+```
 
+## 重定向
+```txt
+>>
+<<
+```
 
-
+## 管道
+```txt
+| 管道符
+```
 
 
 

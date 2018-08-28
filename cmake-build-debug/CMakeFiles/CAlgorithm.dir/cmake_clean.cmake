@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/CAlgorithm.dir/c/main.c.obj"
+  "CMakeFiles/CAlgorithm.dir/c/test.c.obj"
   "CMakeFiles/CAlgorithm.dir/c++/Test.cpp.obj"
   "CAlgorithm.pdb"
   "CAlgorithm.exe"

@@ -86,7 +86,7 @@
 		<Unit filename="D:/Algorithm/CAlgorithm/c++/Test.h">
 			<Option target="CAlgorithm"/>
 		</Unit>
-		<Unit filename="D:/Algorithm/CAlgorithm/c/main.c">
+		<Unit filename="D:/Algorithm/CAlgorithm/c/test.c">
 			<Option target="CAlgorithm"/>
 		</Unit>
 		<Unit filename="D:/Algorithm/CAlgorithm/CMakeLists.txt">
