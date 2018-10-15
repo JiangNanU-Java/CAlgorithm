@@ -89,6 +89,12 @@
 		<Unit filename="D:/Algorithm/CAlgorithm/c/test.c">
 			<Option target="CAlgorithm"/>
 		</Unit>
+		<Unit filename="D:/Algorithm/CAlgorithm/排序/插入排序.c">
+			<Option target="CAlgorithm"/>
+		</Unit>
+		<Unit filename="D:/Algorithm/CAlgorithm/排序/选择排序.c">
+			<Option target="CAlgorithm"/>
+		</Unit>
 		<Unit filename="D:/Algorithm/CAlgorithm/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

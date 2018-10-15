@@ -176,6 +176,60 @@ c/test.c.s:
 	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/c/test.c.s
 .PHONY : c/test.c.s
 
+排序/插入排序.obj: 排序/插入排序.c.obj
+
+.PHONY : 排序/插入排序.obj
+
+# target to build an object file
+排序/插入排序.c.obj:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/排序/插入排序.c.obj
+.PHONY : 排序/插入排序.c.obj
+
+排序/插入排序.i: 排序/插入排序.c.i
+
+.PHONY : 排序/插入排序.i
+
+# target to preprocess a source file
+排序/插入排序.c.i:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/排序/插入排序.c.i
+.PHONY : 排序/插入排序.c.i
+
+排序/插入排序.s: 排序/插入排序.c.s
+
+.PHONY : 排序/插入排序.s
+
+# target to generate assembly for a file
+排序/插入排序.c.s:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/排序/插入排序.c.s
+.PHONY : 排序/插入排序.c.s
+
+排序/选择排序.obj: 排序/选择排序.c.obj
+
+.PHONY : 排序/选择排序.obj
+
+# target to build an object file
+排序/选择排序.c.obj:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/排序/选择排序.c.obj
+.PHONY : 排序/选择排序.c.obj
+
+排序/选择排序.i: 排序/选择排序.c.i
+
+.PHONY : 排序/选择排序.i
+
+# target to preprocess a source file
+排序/选择排序.c.i:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/排序/选择排序.c.i
+.PHONY : 排序/选择排序.c.i
+
+排序/选择排序.s: 排序/选择排序.c.s
+
+.PHONY : 排序/选择排序.s
+
+# target to generate assembly for a file
+排序/选择排序.c.s:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/排序/选择排序.c.s
+.PHONY : 排序/选择排序.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,6 +245,12 @@ help:
 	@echo ... c/test.obj
 	@echo ... c/test.i
 	@echo ... c/test.s
+	@echo ... 排序/插入排序.obj
+	@echo ... 排序/插入排序.i
+	@echo ... 排序/插入排序.s
+	@echo ... 排序/选择排序.obj
+	@echo ... 排序/选择排序.i
+	@echo ... 排序/选择排序.s
 .PHONY : help
 
 
