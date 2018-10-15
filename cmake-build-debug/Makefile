@@ -176,6 +176,60 @@ c/test.c.s:
 	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/c/test.c.s
 .PHONY : c/test.c.s
 
+图/邻接矩阵.obj: 图/邻接矩阵.c.obj
+
+.PHONY : 图/邻接矩阵.obj
+
+# target to build an object file
+图/邻接矩阵.c.obj:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/图/邻接矩阵.c.obj
+.PHONY : 图/邻接矩阵.c.obj
+
+图/邻接矩阵.i: 图/邻接矩阵.c.i
+
+.PHONY : 图/邻接矩阵.i
+
+# target to preprocess a source file
+图/邻接矩阵.c.i:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/图/邻接矩阵.c.i
+.PHONY : 图/邻接矩阵.c.i
+
+图/邻接矩阵.s: 图/邻接矩阵.c.s
+
+.PHONY : 图/邻接矩阵.s
+
+# target to generate assembly for a file
+图/邻接矩阵.c.s:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/图/邻接矩阵.c.s
+.PHONY : 图/邻接矩阵.c.s
+
+图/邻接表.obj: 图/邻接表.c.obj
+
+.PHONY : 图/邻接表.obj
+
+# target to build an object file
+图/邻接表.c.obj:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/图/邻接表.c.obj
+.PHONY : 图/邻接表.c.obj
+
+图/邻接表.i: 图/邻接表.c.i
+
+.PHONY : 图/邻接表.i
+
+# target to preprocess a source file
+图/邻接表.c.i:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/图/邻接表.c.i
+.PHONY : 图/邻接表.c.i
+
+图/邻接表.s: 图/邻接表.c.s
+
+.PHONY : 图/邻接表.s
+
+# target to generate assembly for a file
+图/邻接表.c.s:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/图/邻接表.c.s
+.PHONY : 图/邻接表.c.s
+
 排序/插入排序.obj: 排序/插入排序.c.obj
 
 .PHONY : 排序/插入排序.obj
@@ -245,6 +299,12 @@ help:
 	@echo ... c/test.obj
 	@echo ... c/test.i
 	@echo ... c/test.s
+	@echo ... 图/邻接矩阵.obj
+	@echo ... 图/邻接矩阵.i
+	@echo ... 图/邻接矩阵.s
+	@echo ... 图/邻接表.obj
+	@echo ... 图/邻接表.i
+	@echo ... 图/邻接表.s
 	@echo ... 排序/插入排序.obj
 	@echo ... 排序/插入排序.i
 	@echo ... 排序/插入排序.s

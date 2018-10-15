@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/CAlgorithm.dir/c++/Test.cpp.obj"
   "CMakeFiles/CAlgorithm.dir/排序/插入排序.c.obj"
   "CMakeFiles/CAlgorithm.dir/排序/选择排序.c.obj"
+  "CMakeFiles/CAlgorithm.dir/图/邻接矩阵.c.obj"
+  "CMakeFiles/CAlgorithm.dir/图/邻接表.c.obj"
   "CAlgorithm.pdb"
   "CAlgorithm.exe"
   "CAlgorithm.exe.manifest"
