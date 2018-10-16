@@ -15,8 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca353676-8c96-4cee-836a-f06023a853bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/图/广度遍历.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/图/深度遍历.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/图/Prim算法.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CAlgorithm.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CAlgorithm.cbp" afterDir="false" />
@@ -28,8 +27,6 @@
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/图/邻接矩阵.c" beforeDir="false" afterPath="$PROJECT_DIR$/图/邻接矩阵.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/图/邻接表.c" beforeDir="false" afterPath="$PROJECT_DIR$/图/邻接表.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +54,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="c" value="5" />
+          <entry key="c" value="6" />
           <entry key="cpp" value="3" />
           <entry key="gitignore" value="2" />
           <entry key="h" value="2" />
@@ -70,13 +67,13 @@
           <entry key="CMakeLists.txt" value="1" />
           <entry key="Git file" value="2" />
           <entry key="Markdown" value="10" />
-          <entry key="ObjectiveC" value="10" />
+          <entry key="ObjectiveC" value="11" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="c" value="1336" />
+          <entry key="c" value="1353" />
           <entry key="cpp" value="314" />
           <entry key="gitignore" value="3" />
           <entry key="h" value="22" />
@@ -89,7 +86,7 @@
           <entry key="CMakeLists.txt" value="4" />
           <entry key="Git file" value="3" />
           <entry key="Markdown" value="6889" />
-          <entry key="ObjectiveC" value="1672" />
+          <entry key="ObjectiveC" value="1689" />
           <entry key="PLAIN_TEXT" value="603" />
         </counts>
       </usages-collector>
@@ -97,15 +94,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/排序/插入排序.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/排序/选择排序.c">
           <provider selected="true" editor-type-id="text-editor">
@@ -142,11 +130,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/图/广度遍历.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="575">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/图/Prim算法.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -223,6 +220,7 @@
         <option value="$PROJECT_DIR$/图/邻接表.c" />
         <option value="$PROJECT_DIR$/图/深度遍历.c" />
         <option value="$PROJECT_DIR$/图/广度遍历.c" />
+        <option value="$PROJECT_DIR$/图/Prim算法.c" />
       </list>
     </option>
   </component>
@@ -333,7 +331,7 @@
       <workItem from="1537958693872" duration="1724000" />
       <workItem from="1539065438537" duration="452000" />
       <workItem from="1539583325399" duration="11855000" />
-      <workItem from="1539645777517" duration="4595000" />
+      <workItem from="1539645777517" duration="7095000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1535375191116</created>
@@ -384,11 +382,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539605603786</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="图">
+      <created>1539676037140</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1539676037141</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47107000" />
+    <option name="totallyTimeSpent" value="49607000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -569,8 +574,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/图/广度遍历.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+        <state relative-caret-position="575">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/图/Prim算法.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>

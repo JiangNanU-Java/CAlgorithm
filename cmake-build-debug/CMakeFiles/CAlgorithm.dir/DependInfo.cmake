@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
   "D:/Algorithm/CAlgorithm/c/test.c" "D:/Algorithm/CAlgorithm/cmake-build-debug/CMakeFiles/CAlgorithm.dir/c/test.c.obj"
+  "D:/Algorithm/CAlgorithm/图/Prim算法.c" "D:/Algorithm/CAlgorithm/cmake-build-debug/CMakeFiles/CAlgorithm.dir/图/Prim算法.c.obj"
   "D:/Algorithm/CAlgorithm/图/广度遍历.c" "D:/Algorithm/CAlgorithm/cmake-build-debug/CMakeFiles/CAlgorithm.dir/图/广度遍历.c.obj"
   "D:/Algorithm/CAlgorithm/图/深度遍历.c" "D:/Algorithm/CAlgorithm/cmake-build-debug/CMakeFiles/CAlgorithm.dir/图/深度遍历.c.obj"
   "D:/Algorithm/CAlgorithm/图/邻接矩阵.c" "D:/Algorithm/CAlgorithm/cmake-build-debug/CMakeFiles/CAlgorithm.dir/图/邻接矩阵.c.obj"

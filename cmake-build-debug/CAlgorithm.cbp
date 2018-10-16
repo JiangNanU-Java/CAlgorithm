@@ -89,6 +89,9 @@
 		<Unit filename="D:/Algorithm/CAlgorithm/c/test.c">
 			<Option target="CAlgorithm"/>
 		</Unit>
+		<Unit filename="D:/Algorithm/CAlgorithm/图/Prim算法.c">
+			<Option target="CAlgorithm"/>
+		</Unit>
 		<Unit filename="D:/Algorithm/CAlgorithm/图/广度遍历.c">
 			<Option target="CAlgorithm"/>
 		</Unit>
