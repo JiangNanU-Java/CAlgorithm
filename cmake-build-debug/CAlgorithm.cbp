@@ -89,6 +89,12 @@
 		<Unit filename="D:/Algorithm/CAlgorithm/c/test.c">
 			<Option target="CAlgorithm"/>
 		</Unit>
+		<Unit filename="D:/Algorithm/CAlgorithm/图/广度遍历.c">
+			<Option target="CAlgorithm"/>
+		</Unit>
+		<Unit filename="D:/Algorithm/CAlgorithm/图/深度遍历.c">
+			<Option target="CAlgorithm"/>
+		</Unit>
 		<Unit filename="D:/Algorithm/CAlgorithm/图/邻接矩阵.c">
 			<Option target="CAlgorithm"/>
 		</Unit>

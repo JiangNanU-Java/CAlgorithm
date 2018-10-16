@@ -176,6 +176,60 @@ c/test.c.s:
 	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/c/test.c.s
 .PHONY : c/test.c.s
 
+图/广度遍历.obj: 图/广度遍历.c.obj
+
+.PHONY : 图/广度遍历.obj
+
+# target to build an object file
+图/广度遍历.c.obj:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/图/广度遍历.c.obj
+.PHONY : 图/广度遍历.c.obj
+
+图/广度遍历.i: 图/广度遍历.c.i
+
+.PHONY : 图/广度遍历.i
+
+# target to preprocess a source file
+图/广度遍历.c.i:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/图/广度遍历.c.i
+.PHONY : 图/广度遍历.c.i
+
+图/广度遍历.s: 图/广度遍历.c.s
+
+.PHONY : 图/广度遍历.s
+
+# target to generate assembly for a file
+图/广度遍历.c.s:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/图/广度遍历.c.s
+.PHONY : 图/广度遍历.c.s
+
+图/深度遍历.obj: 图/深度遍历.c.obj
+
+.PHONY : 图/深度遍历.obj
+
+# target to build an object file
+图/深度遍历.c.obj:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/图/深度遍历.c.obj
+.PHONY : 图/深度遍历.c.obj
+
+图/深度遍历.i: 图/深度遍历.c.i
+
+.PHONY : 图/深度遍历.i
+
+# target to preprocess a source file
+图/深度遍历.c.i:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/图/深度遍历.c.i
+.PHONY : 图/深度遍历.c.i
+
+图/深度遍历.s: 图/深度遍历.c.s
+
+.PHONY : 图/深度遍历.s
+
+# target to generate assembly for a file
+图/深度遍历.c.s:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/图/深度遍历.c.s
+.PHONY : 图/深度遍历.c.s
+
 图/邻接矩阵.obj: 图/邻接矩阵.c.obj
 
 .PHONY : 图/邻接矩阵.obj
@@ -299,6 +353,12 @@ help:
 	@echo ... c/test.obj
 	@echo ... c/test.i
 	@echo ... c/test.s
+	@echo ... 图/广度遍历.obj
+	@echo ... 图/广度遍历.i
+	@echo ... 图/广度遍历.s
+	@echo ... 图/深度遍历.obj
+	@echo ... 图/深度遍历.i
+	@echo ... 图/深度遍历.s
 	@echo ... 图/邻接矩阵.obj
 	@echo ... 图/邻接矩阵.i
 	@echo ... 图/邻接矩阵.s
