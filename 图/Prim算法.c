@@ -1,1 +1,1 @@
-void Prim()
+//void Prim()

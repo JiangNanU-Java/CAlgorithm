@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "D:/Algorithm/CAlgorithm/图/邻接表.c" "D:/Algorithm/CAlgorithm/cmake-build-debug/CMakeFiles/CAlgorithm.dir/图/邻接表.c.obj"
   "D:/Algorithm/CAlgorithm/排序/插入排序.c" "D:/Algorithm/CAlgorithm/cmake-build-debug/CMakeFiles/CAlgorithm.dir/排序/插入排序.c.obj"
   "D:/Algorithm/CAlgorithm/排序/选择排序.c" "D:/Algorithm/CAlgorithm/cmake-build-debug/CMakeFiles/CAlgorithm.dir/排序/选择排序.c.obj"
+  "D:/Algorithm/CAlgorithm/查找/KMP算法.c" "D:/Algorithm/CAlgorithm/cmake-build-debug/CMakeFiles/CAlgorithm.dir/查找/KMP算法.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

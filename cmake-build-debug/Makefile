@@ -365,6 +365,33 @@ c/test.c.s:
 	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/排序/选择排序.c.s
 .PHONY : 排序/选择排序.c.s
 
+查找/KMP算法.obj: 查找/KMP算法.c.obj
+
+.PHONY : 查找/KMP算法.obj
+
+# target to build an object file
+查找/KMP算法.c.obj:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/查找/KMP算法.c.obj
+.PHONY : 查找/KMP算法.c.obj
+
+查找/KMP算法.i: 查找/KMP算法.c.i
+
+.PHONY : 查找/KMP算法.i
+
+# target to preprocess a source file
+查找/KMP算法.c.i:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/查找/KMP算法.c.i
+.PHONY : 查找/KMP算法.c.i
+
+查找/KMP算法.s: 查找/KMP算法.c.s
+
+.PHONY : 查找/KMP算法.s
+
+# target to generate assembly for a file
+查找/KMP算法.c.s:
+	$(MAKE) -f CMakeFiles\CAlgorithm.dir\build.make CMakeFiles/CAlgorithm.dir/查找/KMP算法.c.s
+.PHONY : 查找/KMP算法.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -401,6 +428,9 @@ help:
 	@echo ... 排序/选择排序.obj
 	@echo ... 排序/选择排序.i
 	@echo ... 排序/选择排序.s
+	@echo ... 查找/KMP算法.obj
+	@echo ... 查找/KMP算法.i
+	@echo ... 查找/KMP算法.s
 .PHONY : help
 
 

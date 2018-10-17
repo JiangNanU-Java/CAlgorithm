@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/CAlgorithm.dir/图/深度遍历.c.obj"
   "CMakeFiles/CAlgorithm.dir/图/广度遍历.c.obj"
   "CMakeFiles/CAlgorithm.dir/图/Prim算法.c.obj"
+  "CMakeFiles/CAlgorithm.dir/查找/KMP算法.c.obj"
   "CAlgorithm.pdb"
   "CAlgorithm.exe"
   "CAlgorithm.exe.manifest"
