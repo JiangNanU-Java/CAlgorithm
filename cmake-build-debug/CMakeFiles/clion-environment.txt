@@ -1,4 +1,0 @@
-ToolSet: w64 6.0@D:\clion\MinGW\mingw32
-Options: 
-
-Options:
